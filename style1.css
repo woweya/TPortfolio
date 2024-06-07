@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --bg-color: #090a0a;
+    --text-color: rgb(231, 230, 230);
+}
+
+body{
+    background-color: var(--bg-color);
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    position: relative;
+}
+
+h1{
+    color: var(--text-color);
+}
+
+.card{
+    border: 1px solid #06D6A0;
+    padding: 20px;
+    background-color: #1a1b1b;
+    border-radius: 10px;
+}
+
+button#continue{
+    background-color: #000000;
+}
+
+button#continue:hover{
+    background-color: #06D6A0;
+}
+
