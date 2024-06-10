@@ -303,6 +303,8 @@ footer>div{
 
 #aboutme{
     text-align: center!important;
+    font-size: 21px!important;
+    word-break: keep-all!important;
 }
 
 }
