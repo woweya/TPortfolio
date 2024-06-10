@@ -302,9 +302,13 @@ footer>div{
 }
 
 #aboutme{
-    text-align: center!important;
+    text-align: start!important;
     font-size: 21px!important;
     word-break: keep-all!important;
+}
+
+#content-aboutme{
+    width: 100%!important;
 }
 
 }
