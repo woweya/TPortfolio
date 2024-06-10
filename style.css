@@ -214,3 +214,84 @@ button.button-CV {
 #linkedin:hover{
     fill: #0A66C2;
 }
+
+
+/*! MEDIA QUERIES*/
+
+@media screen and (max-width: 768px) {
+
+#mobile{
+    flex-direction: column;
+}
+
+.section-left-side{
+    width: 100%!important;
+}
+
+.section-left-side>h1{
+    text-align: center!important;
+    width: 100%!important;
+}
+
+.section-left-side>ul>li{
+    width: 100%!important;
+    font-size: 18px;
+}
+
+.section-left-side>ul{
+    width: 100%!important;
+}
+
+
+
+.section-right-side{
+    width: 100%!important;
+    margin-top: 15px;
+}
+
+.section-right-side>h1{
+    text-align: center!important;
+    width: 100%!important;
+}
+
+.card-container{
+    width: 100%!important;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 45%!important;
+}
+
+.card>p{
+    font-size: 10px;
+}
+
+button.button-CV{
+    width: 100%!important;
+}
+
+#skills{
+    flex-direction: column;
+}
+
+#skills>.section-left-side{
+    width: 100%!important;
+    margin-right: 0px!important;
+}
+
+#contact-form{
+    width: 90%!important;
+    display: flex;
+    flex-direction: column;
+}
+
+footer>div{
+    border-radius: 0px!important;
+}
+
+#aboutme{
+    text-align: center!important;
+}
+
+}
