@@ -269,6 +269,7 @@ button.button-CV {
 
 button.button-CV{
     width: 100%!important;
+    text-align: center!important;
 }
 
 #skills{
@@ -282,9 +283,19 @@ button.button-CV{
 
 #contact-form{
     width: 90%!important;
-    display: flex;
-    flex-direction: column;
+    display: flex!important;
+    flex-direction: column!important;
+    justify-items: center!important;
+    align-items: center!important;
 }
+
+#contact-form>button{
+    text-align: center!important;
+    width: 100%!important;
+    display: block!important;
+}
+
+
 
 footer>div{
     border-radius: 0px!important;
